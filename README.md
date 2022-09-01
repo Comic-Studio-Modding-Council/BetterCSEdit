@@ -55,7 +55,7 @@ After:
 * 1.2 - Removed ```maxlength = '3'``` because it's doesn't working anymore
 
 ### We need your help!
-* I'm currently lack of JS skill, so if you want you can fork this or DM me: Bang1338#5701 to fill god damn hole in my brain(cell). I love to see your support! Skilled JS coded deserve the love! :heart:
+* I'm currently lack of JS skill, so if you want you can fork this or DM me: Bang1338#5701 to fill god damn hole in my brain(cell). I love to see your support! Skilled JS coder deserve the love! :heart:
 
 ### Special thank:
 [tungdo0602](https://github.com/tungdo0602) - Optimizing code and more
