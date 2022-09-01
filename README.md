@@ -43,8 +43,8 @@ After:
 
 ### Todo:
 - [ ] Opacity
-- [ ] ~~Custom Watermark~~ (failed)
-- [ ] Custom JS (if you know) <- [(kidda failed)](https://stackoverflow.com/questions/73258098/changing-source-inside-script)
+- [ ] ~~Custom Watermark~~ (failed, directly on JS ;-;)
+- [ ] ~~Custom JS (if you know)~~ [(failed)](https://stackoverflow.com/questions/73258098/changing-source-inside-script)
 
 ### Changelog:
 * 0.1 - First script, which you have to open the script to change max size.
@@ -54,9 +54,12 @@ After:
 * 1.1 - Change (max) and (min) to + and - for 100% zoom
 * 1.2 - Removed ```maxlength = '3'``` because it's doesn't working anymore
 
+### We need your help!
+* I'm currently lack of JS skill, so if you want you can fork this or DM me: Bang1338#5701 to fill god damn hole in my brain(cell). I love to see your support!
+
+### Special thank:
+[tungdo0602](https://github.com/tungdo0602) - Optimizing code and more
+
 ### Small credit:
 - syrupyy (for OC in the banner)
 - keny (for Cuphead Comic Studio)
-
-### Special thank:
-[tungdo0602](https://github.com/tungdo0602)
