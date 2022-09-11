@@ -10,22 +10,23 @@ BetterCSEdit
 <p align="center">
   <img src="https://img.shields.io/badge/language-js-yellow">
   <img src="https://img.shields.io/github/languages/top/Bang1338/BetterCSEdit">
+  <img src="https://img.shields.io/badge/version-1.2.1-yellow">
 </p>
 <h3 align="center">
 A better editing for Comic Studio!
 </h3>
 
-### Features:
+## Features:
 - [X] Change size
 - [X] Change rotation degree
 
-### Installation:
+## Installation:
 * 1 - Get [Tampermonkey](https://www.tampermonkey.net)
 * 2 - Go to Dashboard, press the plus sign
 * 3 - [Copy entire script](https://raw.githubusercontent.com/Bang1338/BetterCSEdit/main/BetterCSEdit.js), and paste it
 * 4 - Save.
 
-### Preview:
+## Preview:
 <p align="center">
 Before:
 <img class="center" src="https://cdn.discordapp.com/attachments/779629784509579288/1005480655590805614/no_bcse.png" alt="Normal Cookie Run Comic Studio"/>
@@ -41,12 +42,12 @@ After:
 <img class="center" src= "https://cdn.discordapp.com/attachments/779629784509579288/1005727964383678464/bcse_other_comic.png" alt="BetterCSEdit in Cuphead Comic Studio"/>
 </p>
 
-### Todo:
+## Todo:
 - [ ] Opacity
 - [ ] ~~Custom Watermark~~ (failed, directly on JS ;-;)
 - [ ] ~~Custom JS (if you know)~~ [(failed)](https://stackoverflow.com/questions/73258098/changing-source-inside-script)
 
-### Changelog:
+## Changelog:
 * 0.1   - First script, which you have to open the script to change max size.
 * 0.11  - Now work on: [studios].comic.studio
 * 0.2   - Added textbox, for both resize and rotation.
@@ -55,12 +56,17 @@ After:
 * 1.2   - Removed ```maxlength = '3'``` because it's doesn't working anymore
 * 1.2.1 - Shorten "Rotate" and "Resize" words to "Ro" and "Re" so it will fit some font
 
-### We need your help!
+## We need your help!
 * I'm currently lack of JS skill, so if you want you can fork this or DM me: Bang1338#5701 to fill god damn hole in my brain(cell). I love to see your support! Skilled JS coder deserve the love! :heart:
 
-### Special thank:
+## Special thank:
 [tungdo0602](https://github.com/tungdo0602) - Optimizing code and more
 
-### Small credit:
+## Small credit:
 - syrupyy (for OC in the banner)
 - keny (for Cuphead Comic Studio)
+
+## You can use my code, but remember:
+<p align="center">
+    <img src="https://media.discordapp.net/attachments/954077931360124939/1018386384345649172/i_did.png">
+</p>
