@@ -20,7 +20,7 @@ A better editing for Comic Studio!
 - [X] Change size
 - [X] Change rotation degree
 
-## Installation (THIS WAY OUTDATED TOO MUCH)
+## Installation (manual way)
 * 1 - Get [Tampermonkey](https://www.tampermonkey.net)
 * 2 - Go to Dashboard, press the plus sign
 * 3 - [Copy entire script](https://raw.githubusercontent.com/Bang1338/BetterCSEdit/main/BetterCSEdit.js), and paste it
