@@ -18,7 +18,7 @@
 // 1.1   - Change (max) and (min) to + and - for 100% zoom
 // 1.2   - Removed maxlength = '3' because it's doesn't working anymore
 // 1.2.1 - Shorten "Rotate" and "Resize" words to "Ro" and "Re" so it will fit some font
-// 1.3.1 - Added title bypass for clentside and Adding Enable/Disable option, powered by boolean :)
+// 1.3.1 - Added title bypass for clentside and Added Enable/Disable option, powered by boolean :)
 // ==Changelog==
 
 // This is Open Source.
