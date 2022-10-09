@@ -46,10 +46,18 @@ After:
 <img class="center" src= "https://cdn.discordapp.com/attachments/779629784509579288/1005727964383678464/bcse_other_comic.png" alt="BetterCSEdit in Cuphead Comic Studio"/>
 </p>
 
+## Beta/Devmode:
+* To get beta/devmode, DM me on Discord: Bang1338#5701
+* Even if you upload it after you get one, but you feel uncomfortable and feel like you're pirate? **No, it's fine. I'm just lazy.**
+
 ## Todo:
-- [ ] Opacity
-- [ ] ~~Custom Watermark~~ (failed, directly on JS ;-;)
-- [ ] ~~Custom JS (if you know)~~ [(failed)](https://stackoverflow.com/questions/73258098/changing-source-inside-script)
+- [ ] Dark mode
+- [ ] Enable/Disable
+- [ ] Title length bypass (clentside)
+- [ ] Work on cookiecomiccreator.co
+- [ ] ~~Opacity~~ (failed, serverside.)
+- [ ] ~~Custom Watermark~~ (failed)
+- [ ] ~~Custom JS~~ (failed)
 
 ## Changelog:
 * 0.1   - First script, which you have to open the script to change max size.
@@ -64,7 +72,7 @@ After:
 * I'm currently lack of JS skill, so if you want you can fork this or DM me: Bang1338#5701 to fill god damn hole in my brain(cell). I love to see your support! Skilled JS coder deserve the love! :heart:
 
 ## Special thank:
-[tungdo0602](https://github.com/tungdo0602) - Optimizing code and more
+[tungdo0602](https://github.com/tungdo0602) - Optimizing code
 
 ## Small credit:
 - syrupyy (for OC in the banner)
