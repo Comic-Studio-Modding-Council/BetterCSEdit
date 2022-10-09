@@ -52,8 +52,8 @@ After:
 
 ## Todo:
 - [ ] Dark mode
-- [ ] Enable/Disable
-- [ ] Title length bypass (clentside)
+- [X] Enable/Disable
+- [X] Title length bypass (clentside)
 - [ ] Work on cookiecomiccreator.co
 - [ ] ~~Opacity~~ (failed, serverside.)
 - [ ] ~~Custom Watermark~~ (failed)
