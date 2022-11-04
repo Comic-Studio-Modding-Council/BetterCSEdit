@@ -10,7 +10,7 @@ BetterCSEdit
 <p align="center">
   <img src="https://img.shields.io/badge/language-js-yellow">
   <img src="https://img.shields.io/github/languages/top/Bang1338/BetterCSEdit">
-  <img src="https://img.shields.io/badge/version-1.4-yellow">
+  <img src="https://img.shields.io/badge/version-1.4.1-yellow">
 </p>
 <h3 align="center">
 A better editing for Comic Studio!
@@ -72,6 +72,7 @@ After:
 * 1.2.1 - Shorten "Rotate" and "Resize" words to "Ro" and "Re" so it will fit some font
 * 1.3.1 - Added title bypass for clentside and Added Enable/Disable option, powered by boolean :)
 * 1.4   - Added Dark Mode and Custom Welcome.
+* 1.4.1 - Fixed bug.
 
 ## We need your help!
 * I'm currently lack of JS skill, so if you want you can fork this or DM me: Bang1338#5701 to fill god damn hole in my brain(cell). I love to see your support! Skilled JS coder deserve the love! :heart:
