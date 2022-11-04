@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         BetterCSEdit
 // @namespace    BCSE
-// @version      1.4
+// @version      1.4.1
 // @description  A better editing for Comic Studio!
 // @author       bang1338
 // @match        *://*.comic.studio/*
@@ -31,6 +31,7 @@
 // 1.2.1 - Shorten "Rotate" and "Resize" words to "Ro" and "Re" so it will fit some font
 // 1.3.1 - Added title bypass for clentside and Added Enable/Disable option, powered by boolean :)
 // 1.4   - Added Dark Mode and Custom Welcome.
+// 1.4.1 - Fixed bug.
 // ==Changelog==
 
 // This is Open Source.
@@ -58,9 +59,9 @@
     // fw: First word | lw: Last word
     // inclnm: Include name | entstr: Entire string
     let inclnm = 1;
-    let fw = "Welcome back, ";
-    let lw = ", enjoy your stay!";
-    let entstr = "Hello there!"
+    let fw = "Welcome back dev, ";
+    let lw = "";
+    let entstr = "Welcome back dev."
     // Note: DO NOT PUT "
     // Note: If inclnm is 0, use entstr
     // =====[/Custom Welcome] =====
@@ -78,21 +79,6 @@
 
     // ======= [DONT EDIT] =======
     // or edit if you know what are you doing
-
-
-    // Custom Welcome function
-    if ( Boolean(customwelcome) == true )
-    {
-        var rescw = "";
-        var blank = "";
-        var text = document.getElementsByClassName('display-5 fw-bold lh-1 mb-3')[0].textContent;
-        var nameonl = text.replace('Welcome, ','');
-
-        if ( Boolean(inclnm) == true ) rescw = blank.concat(fw, nameonl, lw);
-        else rescw = entstr;
-
-        document.getElementsByClassName('display-5 fw-bold lh-1 mb-3')[0].innerHTML = rescw;
-    }
 
 
     // Dark mode function
@@ -114,6 +100,22 @@
             document.body.style.color='#ffffff';
         }, rfs);
     }
+
+
+    // Custom Welcome function
+    if ( Boolean(customwelcome) == true )
+    {
+        var rescw = "";
+        var blank = "";
+        var text = document.getElementsByClassName('display-5 fw-bold lh-1 mb-3')[0].textContent;
+        var nameonl = text.replace('Welcome, ','');
+
+        if ( Boolean(inclnm) == true ) rescw = blank.concat(fw, nameonl, lw);
+        else rescw = entstr;
+
+        document.getElementsByClassName('display-5 fw-bold lh-1 mb-3')[0].innerHTML = rescw;
+    }
+
 
     // Resize and Rotate input function
     if (Boolean(renro) == true)
