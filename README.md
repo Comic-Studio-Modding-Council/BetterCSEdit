@@ -56,6 +56,7 @@ After:
 - [X] Dark mode
 - [X] Enable/Disable
 - [X] Title length bypass (clentside)
+- [ ] Custom banner
 - [ ] Work on cookiecomiccreator.co
 - [ ] ~~Opacity~~ (failed, serverside.)
 - [ ] ~~Custom Watermark~~ (failed)
