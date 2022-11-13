@@ -58,6 +58,7 @@ After:
 - [X] Enable/Disable
 - [X] Title length bypass (clentside)
 - [ ] Custom banner
+- [ ] View full image (possible)
 - [ ] Work on cookiecomiccreator.co
 - [ ] ~~Opacity~~ (failed, serverside.)
 - [ ] ~~Custom Watermark~~ (failed)
