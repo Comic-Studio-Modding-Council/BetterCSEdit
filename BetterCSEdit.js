@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         BetterCSEdit
 // @namespace    BCSE
-// @version      1.4.1
+// @version      1.5
 // @description  A better editing for Comic Studio!
 // @author       bang1338
 // @match        *://*.comic.studio/*
@@ -32,18 +32,20 @@
 // 1.3.1 - Added title bypass for clentside and Added Enable/Disable option, powered by boolean :)
 // 1.4   - Added Dark Mode and Custom Welcome.
 // 1.4.1 - Fixed bug.
+// 1.5   - Fixed a lot of "fatal bug", added Custom Name Role (clientside). This make my brain died a lot.
 // ==Changelog==
 
 // This is Open Source.
 (function()
 {
-
     'use strict';
 
-    // ======= [EDIT-ABLE] =======
 
+    // =======[EDIT-ABLE]=======
     // 1 = Enable | 0 = Disable
-    // =====[Common Setting] =====
+
+
+    // =====[Common Setting]=====
     // renro: Resize and Rotate
     // tgtb: Title length bypass (clientside)
     // darkmode: Dark mode.
@@ -52,73 +54,118 @@
     let tgtb = 1;
     let darkmode = 1;
     let customwelcome = 1;
-    // =====[/Common Setting] =====
+    let namerole = 1;
+    // =====[/Common Setting]=====
 
 
-    // =====[Custom Welcome] =====
+    // =====[Custom Welcome]=====
     // fw: First word | lw: Last word
     // inclnm: Include name | entstr: Entire string
-    let inclnm = 1;
-    let fw = "Welcome back dev, ";
-    let lw = "";
-    let entstr = "Welcome back dev."
+    let inclnm = 0;
+    let fw = "Hello ";
+    let lw = ", welcome to Comic Studio!";
+    let entstr = "Welcome to Comic Studio!"
     // Note: DO NOT PUT "
     // Note: If inclnm is 0, use entstr
-    // =====[/Custom Welcome] =====
+    // =====[/Custom Welcome]=====
 
 
-    // =====[Dark-mode] =====
+    // =====[Custom Name Role]=====
+    // n4r  = Your name for role. (Required if nonlnr enabled)
+    // 0    = Normal
+    // 1    = Beta tester
+    // 2    = Moderator
+    // 3    = Administrator
+    // 4    = syrupyy/Owner
+    // >=5  = Normal
+    let nonlnr = 1;
+    let n4r = "Bang1338";
+    let nr = 4;
+    // =====[/Custom Name Role]=====
+
+
+    // =====[Refresh speed ]=====
     // rfs = Refresh speed | 500 is recommend.
     let rfs = 500;
-    // =====[/Dark-mode] =====
-
-
-    // ======= [/EDIT-ABLE] =======
+    // =====[/Refresh speed]=====
 
 
 
-    // ======= [DONT EDIT] =======
+    // =======[/EDIT-ABLE]=======
+
+
+
+
+    // =======[DONT EDIT]=======
     // or edit if you know what are you doing
 
 
-    // Dark mode function
-    if ( Boolean(darkmode) == true )
+    // To remove the fatal flaw, I have to adding URL change function and make sure that it's not studio.
+    // get URL
+    let url = location.href;
+    // get URL function
+    // https://stackoverflow.com/questions/34999976/detect-changes-on-the-url
+    setInterval(function()
     {
-        // Dark mode, run.
-        setInterval(function()
+        if (url != location.href)
         {
-            // darkmode main.
-            // Font will turn into white to read in dark.
-            $('#container').attr('style','background: #000')
-            $('.card').attr('style','background-color: #000')
-            $('.comics-box').attr('style','background-color: #000')
-            $('.notification-inner a').attr('style','color: #6c757d')
-            $('.table').attr('style','color: #fff')
-            $('.text-body').attr('style','color: rgba(var(--bs-white),var(--bs-text-opacity)) !important')
-            $('.text-black').attr('style','color: rgba(var(--bs-white),var(--bs-text-opacity)) !important')
-            document.getElementsByClassName("w-100")[0].src = "https://cdn.discordapp.com/attachments/954077931360124939/1028601397337399376/icon_black.png" // Adding edited icon so you can see it.
-            document.body.style.color='#ffffff';
-        }, rfs);
+            // page has changed, set new page as 'current'
+            url = location.href;
+        }
+    }, rfs);
+
+
+    // check if it subdomain
+    var isSubdomain = function(url)
+    {
+    var result;
+    url = url.replace("https://","");
+    url = url.replace("comic.studio/","");
+    //alert(url);
+    if (url.includes(".")) result = true;
+    else result = false;
+
+    return(result);
     }
 
 
-    // Custom Welcome function
-    if ( Boolean(customwelcome) == true )
+    // check if studio not a subdomain
+    var nosubst = function(url)
     {
-        var rescw = "";
-        var blank = "";
-        var text = document.getElementsByClassName('display-5 fw-bold lh-1 mb-3')[0].textContent;
-        var nameonl = text.replace('Welcome, ','');
+        var result;
+        var r = /\d+/; // regex
 
-        if ( Boolean(inclnm) == true ) rescw = blank.concat(fw, nameonl, lw);
-        else rescw = entstr;
+        if (url.includes("/s/") && url.match(r) > 0) result = true; // If url include "/s/" and number, set it true.
+        else result = false;
 
-        document.getElementsByClassName('display-5 fw-bold lh-1 mb-3')[0].innerHTML = rescw;
+        return(result);
+    }
+
+
+    // check if url is user profile.
+    var usernameurl = function(url)
+    {
+        var result;
+
+        if (url.includes("/u/")) result = true;
+        else result = false;
+
+        return(result);
+    }
+
+    var getusername = function(url)
+    {
+        var result;
+        if (url.includes("/u/"))
+        {
+            result = url.replace('https://comic.studio/u/','');
+        }
+        return(result);
     }
 
 
     // Resize and Rotate input function
-    if (Boolean(renro) == true)
+    if (Boolean(renro) == true && isSubdomain(url) == true || nosubst(url) == true)
     {
         // Resize input (decrease)
         let resmin = document.createElement('input')
@@ -163,7 +210,7 @@
 
 
     // Title bypass (clentside) function
-    if (Boolean(tgtb) == true)
+    if (Boolean(tgtb) == true && isSubdomain(url) == true)
     {
         let tb = document.createElement('input')
         tb.type = 'text'
@@ -176,5 +223,81 @@
     }
 
 
-    // ======= [/DONT EDIT] =======
+    // Dark mode function
+    if ( (Boolean(darkmode) == true) && isSubdomain(url) == false)
+    {
+        // Dark mode, run.
+        setInterval(function()
+        {
+            // darkmode main.
+            // Font will turn into white to read in dark.
+            $('#container').attr('style','background: #000')
+            $('.card').attr('style','background-color: #000')
+            $('.comics-box').attr('style','background-color: #000')
+            $('.notification-inner a').attr('style','color: #6c757d')
+            $('.table').attr('style','color: #fff')
+            $('.text-body').attr('style','color: rgba(var(--bs-white),var(--bs-text-opacity)) !important')
+            $('.text-black').attr('style','color: rgba(var(--bs-white),var(--bs-text-opacity)) !important')
+            document.documentElement.style.setProperty('--bs-body-color', '#ffffff');
+            if (url == 'https://comic.studio/') document.getElementsByClassName("w-100")[0].src = "https://cdn.discordapp.com/attachments/954077931360124939/1028601397337399376/icon_black.png" // Adding edited icon so you can see it.
+            document.body.style.color='#ffffff';
+        }, rfs);
+    }
+
+
+    // For CWF
+    var rescw1 = "";
+    var rescw2 = "";
+    var blankcw = "";
+
+    setInterval(function()
+    {
+
+    // Custom Welcome function
+    if ( Boolean(customwelcome) == true && url == 'https://comic.studio/' || url == 'https://comic.studio/?show=all')
+    {
+        var wm = document.getElementsByClassName('display-5 fw-bold lh-1 mb-3')[0];
+        var text = wm.textContent;
+        var preno = text.replace('Welcome, ','');
+        var nameonl = preno.replace('!','');
+
+        if ( Boolean(inclnm) == true)
+        {
+            if (rescw1 == wm.textContent) rescw1 = wm.textContent; // Took me half of day to figure out
+            else rescw1 = blankcw.concat(fw, nameonl, lw);
+            wm.innerHTML = rescw1;
+        }
+        else
+        {
+            if (rescw2 == wm.textContent) rescw2 = wm.textContent; // Took me half of day to figure out
+            else rescw2 = entstr;
+            wm.innerHTML = rescw2;
+        }
+    }
+
+
+    // Custom Name Role function
+    if ( Boolean(namerole) && usernameurl(url))
+    {
+        var blanknr="";
+        var levelnr="";
+        if ( Boolean(nonlnr) && n4r == null || n4r == "")
+        {
+            alert("Custom Name Role failed: You did not entered username in n4r value.\nRefresh page if you entered it.\n(Why this look like DRM :v)\nidk how to exit loop, close the page.")
+        }
+        if ( Boolean(nonlnr) && n4r != null || n4r != "")
+        {
+            levelnr = blanknr.concat("display-6 fw-bold level-", nr);
+            if (nr>0 && getusername(url)==n4r) document.getElementById("username").className = levelnr;
+        }
+        else
+        {
+            levelnr = blanknr.concat("display-6 fw-bold level-", nr);
+            if (nr>0) document.getElementById("username").className = levelnr;
+        }
+    }
+    },rfs);
+
+
+    // =======[/DONT EDIT]=======
 })();
