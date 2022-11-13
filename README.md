@@ -16,11 +16,6 @@ BetterCSEdit
 A better editing for Comic Studio!
 </h3>
 
-## SHORT NOTE
-* SOME FEATURE WILL **SEPARATE INTO DIFFERENT JS SCRIPT.**
-* BetterCSEdit will spit into 2 script: BetterCSEdit (main) and BetterCSView.
-* I will try my best to **NOT SEPARATE INTO DIFFERENT JS SCRIPT.**
-
 ## Features:
 - [X] Change size
 - [X] Change rotation degree
