@@ -86,6 +86,9 @@ After:
 - syrupyy (for OC in the banner)
 - keny (for Cuphead Comic Studio)
 
+## Bonus:
+**HELPPPPPPPPPPPPPPP WHY I RELEASED THIS IN DAY 13 AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA**
+
 ## You can use my code, but remember:
 <p align="center">
     <img src="https://media.discordapp.net/attachments/954077931360124939/1018386384345649172/i_did.png">
