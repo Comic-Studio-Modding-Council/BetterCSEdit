@@ -26,6 +26,7 @@ A better editing for Comic Studio!
 - [X] Change rotation degree
 - [X] Dark mode
 - [X] Custom welcome message
+- [X] Custom name role effect
 
 ## Installation (manual way)
 * 1 - Get [Tampermonkey](https://www.tampermonkey.net)
@@ -78,6 +79,7 @@ After:
 * 1.3.1 - Added title bypass for clentside and Added Enable/Disable option, powered by boolean :)
 * 1.4   - Added Dark Mode and Custom Welcome.
 * 1.4.1 - Fixed bug.
+* 1.5   - Fixed a lot of "fatal bug", added Custom Name Role (clientside). This make my brain died a lot.
 
 ## We need your help!
 * I'm currently lack of JS skill, so if you want you can fork this or DM me: Bang1338#5701 to fill god damn hole in my brain(cell). I love to see your support! Skilled JS coder deserve the love! :heart:
