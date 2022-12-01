@@ -4,13 +4,13 @@ BetterCSEdit
 
 <p align="center"> 
   <kbd>
-<img src="https://cdn.discordapp.com/attachments/779629784509579288/1005634704189440210/bcse_banner.png">
+<img src="https://media.discordapp.net/attachments/945841557226020888/1047813173379600415/bettercsedit_2.0.png">
   </kbd>
 </p>
 <p align="center">
   <img src="https://img.shields.io/badge/language-js-yellow">
   <img src="https://img.shields.io/github/languages/top/Bang1338/BetterCSEdit">
-  <img src="https://img.shields.io/badge/version-1.4.1-yellow">
+  <img src="https://img.shields.io/badge/version-2.0-yellow">
 </p>
 <h3 align="center">
 A better editing for Comic Studio!
@@ -22,6 +22,8 @@ A better editing for Comic Studio!
 - [X] Dark mode
 - [X] Custom welcome message
 - [X] Custom name role effect
+- [X] Custom Banner
+- [X] MENU! (press Esc for menu)
 
 ## Installation (manual way)
 * 1 - Get [Tampermonkey](https://www.tampermonkey.net)
@@ -49,6 +51,15 @@ After:
 <img class="center" src= "https://cdn.discordapp.com/attachments/779629784509579288/1005727964383678464/bcse_other_comic.png" alt="BetterCSEdit in Cuphead Comic Studio"/>
 </p>
 
+## Menu? Menu.
+- Press Esc key for menu!
+<p align="center">
+<img class="center" src= "https://media.discordapp.net/attachments/954077931360124939/1047814345519804477/image.png" alt="BetterCSEdit menu!"/>
+</p>
+
+- I wanted to make it paid client, but no. Once it's open source, **you can't make it paid**
+
+
 ## Beta/Devmode:
 * To get beta/devmode, DM me on Discord: Bang1338#5701
 * Even if you upload it after you got one, but you feel uncomfortable and feel like you're pirate? **No, it's fine. I'm just lazy.**
@@ -57,7 +68,7 @@ After:
 - [X] Dark mode
 - [X] Enable/Disable
 - [X] Title length bypass (clentside)
-- [ ] Custom banner
+- [X] Custom banner
 - [ ] View full image (possible)
 - [ ] Work on cookiecomiccreator.co
 - [ ] ~~Opacity~~ (failed, serverside.)
@@ -76,6 +87,7 @@ After:
 * 1.4   - Added Dark Mode and Custom Welcome.
 * 1.4.1 - Fixed bug.
 * 1.5   - Fixed a lot of "fatal bug", added Custom Name Role (clientside). This make my brain died a lot.
+* 2.0   - Added Custom Banner. Now you can use menu by pressing "Esc" (aka. Escape) key to open and close.
 
 ## We need your help!
 * I'm currently lack of JS skill, so if you want you can fork this or DM me: Bang1338#5701 to fill god damn hole in my brain(cell). I love to see your support! Skilled JS coder deserve the love! :heart:
@@ -88,7 +100,10 @@ After:
 - keny (for Cuphead Comic Studio)
 
 ## Bonus:
-**HELPPPPPPPPPPPPPPP WHY I RELEASED THIS IN DAY 13 AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA**
+The defrosting has begun, **RUN**
+<p align="center">
+    <img src="https://i.ytimg.com/vi/3i51tBrgaxQ/mqdefault.jpg">
+</p>
 
 ## You can use my code, but remember:
 <p align="center">
