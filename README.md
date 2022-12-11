@@ -73,6 +73,7 @@ After:
 - [X] Custom banner
 - [ ] View full image (possible)
 - [ ] Work on cookiecomiccreator.co
+- [ ] (almost) Full mobile support.
 - [ ] ~~Opacity~~ (failed, serverside.)
 - [ ] ~~Custom Watermark~~ (failed)
 - [ ] ~~Custom JS~~ (failed)
