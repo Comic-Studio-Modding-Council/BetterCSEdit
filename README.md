@@ -18,6 +18,8 @@ BetterCSEdit
 A better editing for Comic Studio!
 </h3>
 
+# Reminder: Temporary archive for week.
+
 ## Features:
 - [X] Change size
 - [X] Change rotation degree
@@ -26,6 +28,18 @@ A better editing for Comic Studio!
 - [X] Custom name role effect
 - [X] Custom Banner
 - [X] MENU! (press Esc for menu)
+
+## Todo/Goal:
+- [X] Dark mode
+- [X] Enable/Disable
+- [X] Title length bypass (clentside)
+- [X] Custom banner
+- [ ] View full image (possible with cookies.run and/or comicstud.io)
+- [ ] Work on cookiecomiccreator.co
+- [ ] (almost) Full mobile support.
+- [ ] ~~Opacity~~ (failed, serverside.)
+- [ ] ~~Custom Watermark~~ (failed)
+- [ ] ~~Custom JS~~ (failed)
 
 ## Installation (manual way)
 * 1 - Get [Tampermonkey](https://www.tampermonkey.net)
@@ -65,18 +79,6 @@ After:
 ## Beta/Devmode:
 * To get beta/devmode, DM me on Discord: Bang1338#5701
 * Even if you upload it after you got one, but you feel uncomfortable and feel like you're pirate? **No, it's fine. I'm just lazy.**
-
-## Todo:
-- [X] Dark mode
-- [X] Enable/Disable
-- [X] Title length bypass (clentside)
-- [X] Custom banner
-- [ ] View full image (possible)
-- [ ] Work on cookiecomiccreator.co
-- [ ] (almost) Full mobile support.
-- [ ] ~~Opacity~~ (failed, serverside.)
-- [ ] ~~Custom Watermark~~ (failed)
-- [ ] ~~Custom JS~~ (failed)
 
 ## Changelog:
 * 0.1   - First script, which you have to open the script to change max size.
