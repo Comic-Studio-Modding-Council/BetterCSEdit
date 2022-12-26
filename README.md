@@ -18,8 +18,6 @@ BetterCSEdit
 A better editing for Comic Studio!
 </h3>
 
-# Reminder: Temporary archive for week.
-
 ## Features:
 - [X] Change size
 - [X] Change rotation degree
