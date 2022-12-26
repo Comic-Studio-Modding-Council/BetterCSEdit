@@ -103,10 +103,7 @@ After:
 - keny (for Cuphead Comic Studio)
 
 ## Bonus:
-Happy birthday [syrupyy](https://github.com/syrupyy)!
-<p align="center">
-    <img src="https://user-images.githubusercontent.com/75790567/205241269-9a7c185d-3357-42c6-acdf-264010838eac.png">
-</p>
+I lost my phone ;-;
 
 
 ## You can use my code, but remember:
