@@ -75,8 +75,46 @@ After:
 
 
 ## Beta/Devmode:
-* To get beta/devmode, DM me on Discord: Bang1338#5701
-* Even if you upload it after you got one, but you feel uncomfortable and feel like you're pirate? **No, it's fine. I'm just lazy.**
+* Use this script for Beta, this script will change whenever I do something:
+```js
+// ==UserScript==
+// @name         BCSE Beta!
+// @namespace    mynamespace
+// @version      2.0b
+// @description  A better editing for Comic Studio!
+// @match        *://*.comic.studio/*
+// @icon         https://www.google.com/s2/favicons?sz=64&domain=comic.studio
+// @grant        GM_xmlhttpRequest
+// ==/UserScript==
+
+(function() {
+  'use strict';
+
+  if (typeof jQuery === 'undefined') {
+        var script = document.createElement('script');
+        script.src = 'https://code.jquery.com/jquery-3.6.0.min.js';
+        script.onload = loadScript;
+        document.head.appendChild(script);
+    } else {
+        loadScript();
+    }
+
+    function loadScript() {
+        // Load the script from example.com/bcsebeta
+        GM_xmlhttpRequest({
+            method: 'GET',
+            url: 'https://bettercsedit-onlinescriptbeta.1338bang.repl.co/bcsebeta',
+            onload: function(response) {
+                // Inject the script into the page
+                var script = document.createElement('script');
+                script.textContent = response.responseText;
+                document.head.appendChild(script);
+            }
+        });
+    }
+
+})();
+```
 
 ## Changelog:
 * 0.1   - First script, which you have to open the script to change max size.
