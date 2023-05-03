@@ -32,7 +32,7 @@ A better editing for Comic Studio!
 - [X] Enable/Disable
 - [X] Title length bypass (clentside)
 - [X] Custom banner
-- [ ] View full image (possible with cookies.run and/or comicstud.io)
+- [ ] View full image (possible with cookies.run and/or comicstud.io) - **Need testing, avilable in Beta**
 - [ ] Work on cookiecomiccreator.co
 - [ ] (almost) Full mobile support.
 - [ ] ~~Opacity~~ (failed, serverside.)
@@ -90,7 +90,8 @@ After:
 (function() {
   'use strict';
 
-  if (typeof jQuery === 'undefined') {
+// Load jQuery if it's not already loaded
+    if (typeof jQuery === 'undefined') {
         var script = document.createElement('script');
         script.src = 'https://code.jquery.com/jquery-3.6.0.min.js';
         script.onload = loadScript;
@@ -100,7 +101,7 @@ After:
     }
 
     function loadScript() {
-        // Load the script from example.com/bcsebeta
+        // Load the script from my server
         GM_xmlhttpRequest({
             method: 'GET',
             url: 'https://bettercsedit-onlinescriptbeta.1338bang.repl.co/bcsebeta',
