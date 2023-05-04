@@ -21,9 +21,9 @@ A better editing for Comic Studio!
 ## Features:
 - [X] Change size
 - [X] Change rotation degree
-- [X] Dark mode (in the future, ~~it will be removed~~ it will be "Completely Dark Mode (CDM)". because of [this](https://comic.studio/c/girivgudov))
+- [ ] Dark mode (in the future, ~~it will be removed~~ it will be "Completely Dark Mode (CDM)". because of [this](https://comic.studio/c/girivgudov)) - Broken
 - [X] Custom welcome message
-- [X] Custom name role effect
+- [X] Custom name role effect - Broken
 - [X] Custom Banner
 - [X] MENU! (press Esc for menu)
 
