@@ -147,10 +147,4 @@ function loadScript() {
 - keny (for Cuphead Comic Studio)
 
 ## Bonus:
-I lost my phone ;-;
-
-
-## You can use my code, but remember:
-<p align="center">
-    <img src="https://media.discordapp.net/attachments/954077931360124939/1018386384345649172/i_did.png">
-</p>
+Do you think i'm dead? No.
