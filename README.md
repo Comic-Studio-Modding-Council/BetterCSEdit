@@ -21,23 +21,18 @@ A better editing for Comic Studio!
 ## Features:
 - [X] Change size
 - [X] Change rotation degree
-- [ ] Dark mode (in the future, ~~it will be removed~~ it will be "Completely Dark Mode (CDM)". because of [this](https://comic.studio/c/girivgudov)) - Broken
+- [X] Dark mode
 - [X] Custom welcome message
-- [X] Custom name role effect - Broken
+- [X] Custom name role effect - **FIXED in Beta**
 - [X] Custom Banner
 - [X] MENU! (press Esc for menu)
 
 ## Todo/Goal:
-- [X] Dark mode
-- [X] Enable/Disable
-- [X] Title length bypass (clentside)
-- [X] Custom banner
-- [ ] View full image (possible with cookies.run and/or comicstud.io) - **Need testing, avilable in Beta**
-- [ ] Work on cookiecomiccreator.co
-- [ ] (almost) Full mobile support.
-- [ ] ~~Opacity~~ (failed, serverside.)
-- [ ] ~~Custom Watermark~~ (failed)
-- [ ] ~~Custom JS~~ (failed)
+- [X] (Full) Dark mode - **in Beta**
+- [ ] ~~Enable/Disable~~ - idk when this exist ;-;
+- [X] View full image (possible with cookies.run and/or comicstud.io) - **in Beta**
+- [ ] Work on cookiecomiccreator.co - **Separated script required**
+- [ ] (almost) Full mobile support. - **Got new phone, soon.**
 
 ## Installation (manual way)
 * 1 - Get [Tampermonkey](https://www.tampermonkey.net)
