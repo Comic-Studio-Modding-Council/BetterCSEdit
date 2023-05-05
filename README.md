@@ -88,32 +88,42 @@ After:
 // ==/UserScript==
 
 (function() {
-  'use strict';
+'use strict';
 
 // Load jQuery if it's not already loaded
-    if (typeof jQuery === 'undefined') {
-        var script = document.createElement('script');
-        script.src = 'https://code.jquery.com/jquery-3.6.0.min.js';
-        script.onload = loadScript;
-        document.head.appendChild(script);
-    } else {
-        loadScript();
-    }
+if (typeof jQuery === 'undefined') {
+    var script = document.createElement('script');
+    script.src = 'https://code.jquery.com/jquery-3.6.0.min.js';
+    script.onload = loadScript;
+    document.head.appendChild(script);
+} else {
+    loadScript();
+}
 
-    function loadScript() {
-        // Load the script from my server
-        GM_xmlhttpRequest({
-            method: 'GET',
-            url: 'https://bettercsedit-onlinescriptbeta.1338bang.repl.co/bcsebeta',
-            onload: function(response) {
-                // Inject the script into the page
-                var script = document.createElement('script');
-                script.textContent = response.responseText;
-                document.head.appendChild(script);
-            }
-        });
-    }
+function loadScript() {
+    // Load Keydrown and the main script from my server
+    GM_xmlhttpRequest({
+        method: 'GET',
+        url: 'https://jeremyckahn.github.io/keydrown/dist/keydrown.min.js', //keydrown
+        onload: function(response) {
+            // Inject the Keydrown library into the page
+            var kdScript = document.createElement('script');
+            kdScript.textContent = response.responseText;
+            document.head.appendChild(kdScript);
 
+            GM_xmlhttpRequest({
+                method: 'GET',
+                url: 'https://bettercsedit-onlinescriptbeta.1338bang.repl.co/bcsebeta',
+                onload: function(response) {
+                    // Inject the main script into the page
+                    var mainScript = document.createElement('script');
+                    mainScript.textContent = response.responseText;
+                    document.head.appendChild(mainScript);
+                }
+            });
+        }
+    });
+}
 })();
 ```
 
