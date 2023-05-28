@@ -46,6 +46,7 @@ A better editing for Comic Studio!
 <p align="center">
     <img class="center" src="https://github.com/Bang1338/BetterCSEdit/assets/75790567/29962991-5f14-4435-bf43-075a8710626c" alt="WHYYYYYYYYYYY"/>
 </p>
+
 ### So install with GitHub instead:
 * [Install](https://github.com/Bang1338/BetterCSEdit/raw/main/BetterCSEdit.js)
 * But you will need [Tampermonkey](https://www.tampermonkey.net)
