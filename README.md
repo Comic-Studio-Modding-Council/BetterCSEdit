@@ -42,6 +42,14 @@ A better editing for Comic Studio!
 ### But then I had very good idea, I used Greasy Fork. See, using Greasy Fork gave me a whole new perspective and I was able to install script without manual step above
 * [Install](https://greasyfork.org/vi/scripts/451702-bettercsedit)
 * But you will need [Tampermonkey](https://www.tampermonkey.net)
+### And then, this happened:
+<p align="center">
+    <img class="center" src="https://github.com/Bang1338/BetterCSEdit/assets/75790567/29962991-5f14-4435-bf43-075a8710626c" alt="WHYYYYYYYYYYY"/>
+</p>
+### So install with GitHub instead:
+* [Install](https://github.com/Bang1338/BetterCSEdit/raw/main/BetterCSEdit.js)
+* But you will need [Tampermonkey](https://www.tampermonkey.net)
+
 
 ## Preview:
 <p align="center">
