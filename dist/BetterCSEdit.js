@@ -9,6 +9,8 @@
 // @grant        none
 // @require      https://code.jquery.com/jquery-3.6.0.min.js
 // @require      https://jeremyckahn.github.io/keydrown/dist/keydrown.min.js
+// @connect      raw.githubusercontent.com
+// @connect      gist.githubusercontent.com
 // @license      MIT
 // ==/UserScript==
 
