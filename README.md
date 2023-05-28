@@ -11,7 +11,7 @@ BetterCSEdit
 <p align="center">
   <img src="https://img.shields.io/badge/language-js-yellow">
   <img src="https://img.shields.io/github/languages/top/Bang1338/BetterCSEdit">
-  <img src="https://img.shields.io/badge/version-2.0-yellow">
+  <img src="https://img.shields.io/badge/version-2.1-yellow">
 </p>
 
 <h3 align="center">
