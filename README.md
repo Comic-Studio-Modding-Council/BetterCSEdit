@@ -21,16 +21,15 @@ A better editing for Comic Studio!
 ## Features:
 - [X] Change size
 - [X] Change rotation degree
-- [X] Dark mode
+- [X] (Full) Dark mode
 - [X] Custom welcome message
-- [X] Custom name role effect - **FIXED in Beta**
+- [X] Custom name role (v2)
 - [X] Custom Banner
-- [X] MENU! (press Esc for menu)
+- [X] MENU! (press Esc for menu) with Enable/Disable
+- [X] View Full Image (`~` + `Tab` then release `Tab`)
+- [X] MoreTab (studio) 
 
 ## Todo/Goal:
-- [X] (Full) Dark mode - **in Beta**
-- [ ] ~~Enable/Disable~~ - idk when this exist ;-;
-- [X] View full image (possible with cookies.run and/or comicstud.io) - **in Beta**
 - [ ] Work on cookiecomiccreator.co - **Separated script required**
 - [ ] (almost) Full mobile support. - **Got new phone, soon.**
 
@@ -75,7 +74,7 @@ After:
 // ==UserScript==
 // @name         BCSE Beta!
 // @namespace    mynamespace
-// @version      2.0b
+// @version      2.1b
 // @description  A better editing for Comic Studio!
 // @match        *://*.comic.studio/*
 // @icon         https://www.google.com/s2/favicons?sz=64&domain=comic.studio
