@@ -48,7 +48,7 @@ A better editing for Comic Studio!
 </p>
 
 ### So install with GitHub instead:
-* [Install](https://github.com/Bang1338/BetterCSEdit/raw/main/dist/BetterCSEdit.js)
+* [Install](https://github.com/Bang1338/BetterCSEdit/raw/main/BetterCSEdit.user.js)
 * But you will need [Tampermonkey](https://www.tampermonkey.net)
 
 
