@@ -36,7 +36,7 @@ A better editing for Comic Studio!
 ## Installation (manual way)
 * 1 - Get [Tampermonkey](https://www.tampermonkey.net)
 * 2 - Go to Dashboard, press the plus sign
-* 3 - [Copy entire script](https://raw.githubusercontent.com/Bang1338/BetterCSEdit/main/BetterCSEdit.js), and paste it
+* 3 - [Copy entire script](https://github.com/Bang1338/BetterCSEdit/blob/main/BetterCSEdit.user.js), and paste it
 * 4 - Save.
 
 ### But then I had very good idea, I used Greasy Fork. See, using Greasy Fork gave me a whole new perspective and I was able to install script without manual step above
