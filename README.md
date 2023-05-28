@@ -134,6 +134,7 @@ function loadScript() {
 * 1.4.1 - Fixed bug.
 * 1.5   - Fixed a lot of "fatal bug", added Custom Name Role (clientside). This make my brain died a lot.
 * 2.0   - Added Custom Banner. Now you can use menu by pressing "Esc" (aka. Escape) key to open and close.
+* 2.1   - Added background, View Full Image, Custom Namerole v2, MoreTab. Optimized stuff
 
 ## We need your help!
 * I'm currently lack of JS skill, so if you want you can fork this or DM me: Bang1338#5701 to fill god damn hole in my brain(cell). I love to see your support! Skilled JS coder deserve the love! :heart:
@@ -146,4 +147,4 @@ function loadScript() {
 - keny (for Cuphead Comic Studio)
 
 ## Bonus:
-Do you think i'm dead? No.
+Happy Anniversary Comic Studio!
