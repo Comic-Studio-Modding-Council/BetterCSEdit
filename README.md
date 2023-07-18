@@ -23,15 +23,19 @@ A better editing for Comic Studio!
 - [X] Change rotation degree
 - [X] (Full) Dark mode
 - [X] Custom welcome message
-- [X] Custom name role (v2)
+- [X] Custom name role (v2) - **v3 Bug fixing: Double namerole**
 - [X] Custom Banner
 - [X] MENU! (press Esc for menu) with Enable/Disable
-- [X] View Full Image (`~` + `Tab` then release `Tab`)
+- [X] View Full Image (`~` + `Tab` then release `Tab`) - **v2 Fix: Button instead of hotkey for mobile support**
 - [X] MoreTab (studio) 
 
 ## Todo/Goal:
+- [ ] Custom name role (v3)
+- [ ] View Full Image (v2)
+- [ ] Easy Darkmode button
+- [ ] Easy Emotes button
 - [ ] Work on cookiecomiccreator.co - **Separated script required**
-- [ ] (almost) Full mobile support. - **Got new phone, soon.**
+- [ ] (almost) Full mobile support. - **Fixing**
 
 ## Installation (manual way)
 * 1 - Get [Tampermonkey](https://www.tampermonkey.net)
