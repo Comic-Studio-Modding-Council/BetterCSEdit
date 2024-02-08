@@ -18,7 +18,35 @@ BetterCSEdit
 A better editing for Comic Studio!
 </h3>
 
-## Features:
+# This project now came to the end.
+
+## Why this project stopped?
+#### 1. Cherries_ vs me
+- Most of thing happened in here: [2023](https://github.com/Bang1338/bangs-project-voyager?tab=readme-ov-file#message-2023), [2024](https://github.com/Bang1338/bangs-project-voyager?tab=readme-ov-file#message-2024), [syrupyy announcement](https://comic.studio/c/pufuzmusah). But they don't know where the start is.
+- I've contacted DBT team to solve this case, but failed in bigger half.
+
+#### 2. replit keep-alive patched
+- I don't know when, but replit keep-alive has been patched, which mean no more BCSE-GSM or BCSE-Beta and pasteR (for that one above)
+
+#### 3. Other factor
+I've been suffered many case... such as: 
+- nuked warez scene (can't tell further) 
+- family conflict 
+- Telegram group drama 
+- doxxing (most of them from Comic Studio)
+
+
+I have no interest on this project anymore. If you wish to keep this project alive, fork and improve.
+
+Rest In Peace, BetterCSEdit
+
+2022 - 2024
+
+The project was made for fun (aka bypass slider range), more "cursed" and more customization, but now it came to the end. 
+
+Thank you to everyone who love to use them. Spread the word.
+
+## Features (after "user type" update):
 - [X] Change size
 - [X] Change rotation degree
 - [X] (Full) Dark mode
